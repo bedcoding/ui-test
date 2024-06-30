@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'http://172.31.3.60:4000/guestbook';
+const API_URL = 'http://13.125.182.55:4000/guestbook';
 
 // 게시글 조회
 export const fetchGuestbook = async () => {
