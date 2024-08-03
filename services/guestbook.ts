@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'https://deploy-test.p-e.kr/guestbook';
+const API_URL = 'https://deploy-test.p-e.kr:4000/guestbook';
 
 // 게시글 조회
 export const fetchGuestbook = async () => {
