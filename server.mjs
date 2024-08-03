@@ -3,6 +3,7 @@ import fs from 'fs';
 import next from 'next';
 
 const port = 3000;
+const hostname = 'deploy-test.p-e.kr';
 const app = next({ hostname, port });
 const handle = app.getRequestHandler();
 
